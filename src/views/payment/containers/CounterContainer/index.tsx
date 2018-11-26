@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { incrementCounter, decrementCounter, setCounter }
-  from '@app/src/views/payment/state/counter/actionTypes';
+  from '@app/src/views/payment/state/counter/actions';
 import { Counter } from '@app/src/views/payment/components/Counter';
 
 interface IProps {
